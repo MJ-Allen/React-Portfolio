@@ -47,7 +47,7 @@ Mock-Up
 
 
 ## Visuals
-![social network image](./images/social-network-screenshot.png)
+![React portfolio image]()
 ## Installation
 This application will require installing React by using the command npx create-react-app . in your terminal. or GitBash. 
 ## Usage
