@@ -1,4 +1,5 @@
 body {
+  background-image: linear-gradient(to top left,rgb(156, 152, 152), rgb(0, 0, 0));
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -57,7 +58,7 @@ a:hover, a:active {
 
 
 }
-.imgCard {
+.img-card {
   border-radius: 10px;
   margin-bottom: 35px;
   width: 70%;
@@ -71,10 +72,24 @@ header {
   display: flex;
   justify-content: space-evenly;
 }
-body {
-  background-image: linear-gradient(to top left,rgb(130, 180, 63), rgb(0, 0, 0));
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+.portfolio {
+  justify-content: center;
+  padding: 50px;
+  text-align: center;
+}
+img {
+  box-shadow: 0 0 25px rgb(102, 7, 7);
+  border-radius: 150px;
+  padding: 15px;
+}
+#contact {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  height: 75vh;
+}
+
+.contactLinks {
+  font-size: 300%;
+  margin-left: 15px;
 }
