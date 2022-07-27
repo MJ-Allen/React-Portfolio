@@ -42,3 +42,8 @@ h2 {
 section {
   background: blue;
 }
+@media only screen and (min-width: 1024px) {
+  .container header .header-nav-area #nav_container  {
+    display:flex;
+  }
+}

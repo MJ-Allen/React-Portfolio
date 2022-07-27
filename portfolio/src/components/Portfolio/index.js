@@ -4,7 +4,9 @@ import Seo from '../../assets/images/seo.png';
 import neverbelate from '../../assets/images/neverbelateschedule.png';
 
 
+
 function Portfolio () {
+    
     return (
          <section>
            <div className="center" id='portfolio'>
@@ -14,7 +16,7 @@ function Portfolio () {
         <div class='img-card'>
                 <h2>Food Run Interactive Application</h2>
 				  
-					<img src={FoodRun} alt="Screenshot of foodrun game"/>
+					<img src={FoodRun} alt="Screenshot of foodrun game" />
 				<a href="https://pacific-everglades-44013.herokuapp.com/">
                 Link to the live site application
 				</a>

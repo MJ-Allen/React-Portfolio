@@ -2,7 +2,9 @@ import React from "react";
 
 function Contact () {
       return (
+      
         <section id="contactInfo">
+            <div className="center" id='contact'>
           <h2>Contact</h2>
           <article className="contact">
             <div>
@@ -15,6 +17,7 @@ function Contact () {
               <a href="https://www.linkedin.com/in/marquise-allen">Linkedin</a>
             </div>
           </article>
+          </div>
         </section>
       );
     }

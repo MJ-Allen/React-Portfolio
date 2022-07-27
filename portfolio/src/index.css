@@ -27,8 +27,22 @@ h2 {
   color:#902923;
   font-size: 300%;
   margin-bottom: 25px;
+  justify-content: center;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
 }
+
+h1 {
+  color:#607B7D;
+  font-size: 300%;
+  text-align: left;
+  margin-bottom: 25px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+}
+h1:hover {
+  color: #902923;
+  transform: .2 ease-in;
+}
+
 
 h2:hover {
   color: #607B7D;
@@ -44,14 +58,25 @@ h2:hover {
   padding: 50px;
   text-align: center;
 }
+.portfolioP {
+  text-align: center;
 
-a {
-  color: #4e6e70;
-  flex-wrap: wrap;
 }
 
-a:hover, a:active {
+a {
   color: #902923;
+  flex-wrap: wrap;
+  margin: 10px;
+  font-size: larger;
+  
+  
+  
+}
+div{
+  justify-content: center;
+}
+a:hover, a:active {
+  color:#4e6e70 ;
   text-decoration: none;
   cursor: pointer;
   font-size: x-large;
@@ -80,16 +105,25 @@ header {
 img {
   box-shadow: 0 0 25px rgb(102, 7, 7);
   border-radius: 150px;
-  padding: 15px;
-}
-#contact {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  height: 75vh;
+  padding: 35px;
+  margin: 20px;
 }
 
-.contactLinks {
+
+.contact {
   font-size: 300%;
   margin-left: 15px;
+  text-align: center;
+}
+ 
+p {
+ border-style: solid;
+  border-radius: 12px;
+  border-color: #607B7D;
+  box-shadow: 0 0 25px rgb(102, 7, 7);
+  font-size: x-large;
+  margin: 10px;
+  
+  padding: 2px;
+  margin: 6px
 }
