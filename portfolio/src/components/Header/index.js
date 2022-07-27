@@ -7,7 +7,7 @@ function Header(props) {
     return (
         <header>
             <div>
-                <h2>React Portfolio by Marquise Allen</h2>
+                <h2 style={{ textAlign: "center"}}>React Portfolio by Marquise Allen</h2>
             </div>
 
             <div>

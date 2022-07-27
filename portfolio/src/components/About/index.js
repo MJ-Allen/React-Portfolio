@@ -1,16 +1,13 @@
 import React from 'react';
+import Self from '../../assets/images/family.JPG';
 
 function About () {
     return (
         <section>
-                <div
-      style={{
-        backgroundColor: 'blue',
-        
-        width: '100px',
-        height: '100px'
-      }}
-    />
+            <div className="center" id='about'>
+
+    <img src={Self} class="image" alt="Marquise Allen"/>
+            </div>
 
             <div className='center' id='about'>
                 <h1 className='page-header'>About Me</h1>

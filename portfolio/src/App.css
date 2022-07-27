@@ -7,7 +7,7 @@
   pointer-events: none;
 }
 h2 {
-  background-color: rgb(12, 155, 190);
+  backGround: rgb(12, 155, 190);
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
