@@ -5,7 +5,7 @@ function Contact () {
       
         <section id="contactInfo">
             <div className="center" id='contact'>
-          <h2>Contact</h2>
+          <h1>Contact</h1>
           <article className="contact">
             <div>
               <a href="mailto:marquise.j.allen12@gmail.com">Gmail</a>
