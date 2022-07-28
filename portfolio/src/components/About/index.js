@@ -6,7 +6,9 @@ function About () {
         <section>
             <div className="center" id='about'>
 
-    <img src={Self} class="image" alt="Marquise Allen"/>
+            <h3 className='img-container'>
+                 <img src={Self} class="image" alt="Marquise Allen"/>
+            </h3> 
             </div>
 
             <div className='center' id='about'>
